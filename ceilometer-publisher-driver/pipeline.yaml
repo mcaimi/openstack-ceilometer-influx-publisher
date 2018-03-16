@@ -1,0 +1,4 @@
+ publishers:
+<<< Line To Add >>>
+  - influxdb://ceilometer
+<<<EOL>>>

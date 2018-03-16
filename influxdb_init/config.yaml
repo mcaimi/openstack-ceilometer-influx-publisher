@@ -1,0 +1,7 @@
+---
+influx_db_address: 127.0.0.1
+influx_db_port: 8086
+influx_query_endpoint: query
+influx_write_endpoint: write
+influx_admin_user: admin
+influx_admin_pass: P4ssw0rd

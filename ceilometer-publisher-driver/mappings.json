@@ -1,0 +1,76 @@
+[
+{
+	"name": "tenants",
+	"values": [
+		"*"
+		]
+},
+{
+	"name": "meters",
+	"values": [
+		"cpu", 
+		"cpu_util", 
+		"disk.device.read.bytes.rate", 
+		"disk.device.write.bytes.rate", 
+		"disk.read.requests.rate", 
+		"disk.write.requests.rate", 
+		"memory.resident", 
+		"memory.usage", 
+		"network.incoming.bytes.rate", 
+		"network.outgoing.bytes.rate",
+		"disk.device.read.requests.rate",
+		"disk.device.write.requests.rate",
+		"network.services.lb.active.connections",
+		"network.services.lb.incoming.bytes",
+		"network.services.lb.outgoing.bytes",
+		"network.services.lb.total.connections",
+		"instance",
+		"disk.usage",
+		"disk.capacity",
+		"disk.device.usage",
+		"disk.allocation"
+	]
+},
+{
+	"name": "common_tags",
+	"values": [ "id", "user_id", "tenant_name"]
+},
+{
+	"name": "special_tags",
+	"values": [ "mac", "display_name", "resource_id"]
+
+},
+{
+	"name": "ignored_meters",
+	"values": [
+		"disk.device.allocation",
+		"disk.device.capacity",
+		"disk.device.read.bytes",
+		"disk.device.read.requests",
+		"disk.device.write.bytes",
+		"disk.device.write.requests",
+		"disk.read.bytes",
+		"disk.read.bytes.rate",
+		"disk.read.requests",
+		"disk.write.bytes",
+		"disk.write.bytes.rate",
+		"disk.write.requests",
+		"instance:2048MiB-50GiB-1CPU",
+		"instance:dev.2vCPU_2GBRam_40GBHDD",
+		"instance:dev.8vCPU_16GBRam_80GBHDD_4GBswap",
+		"instance:test_3cpu_3gb",
+		"network.incoming.bytes",
+		"network.incoming.packets",
+		"network.incoming.packets.rate",
+		"network.outgoing.bytes",
+		"network.outgoing.packets",
+		"network.outgoing.packets.rate",
+		"image",
+		"image.size",
+		"network.services.lb.health_monitor",
+		"network.services.lb.member",
+		"network.services.lb.pool",
+		"network.services.lb.vip"
+	]
+}
+]
